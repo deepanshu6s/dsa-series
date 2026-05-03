@@ -5,7 +5,7 @@ using namespace std;
 int main(){
 
     int n;
-    cout<<"enter the value to check positive or negative";
+    cout<<"enter the value to check positive or negative : ";
     cin>>n;
     
     if(n<0){
