@@ -36,7 +36,5 @@ int main(){
     int b = binarySearch(odd, 5, 16);
     cout<<"its present at "<<b+1<<" place";
 
-
-
 return 0;
 }
