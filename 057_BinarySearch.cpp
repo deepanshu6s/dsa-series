@@ -4,7 +4,7 @@ using namespace std;
 int binarySearch(int arr[] , int size, int key){
     int start = 0;
     int end = size-1;  //index
-    int mid = (start+end)/2;  //middle element
+    int mid = (start + (end-start)/2);  //middle element
 
     while(start<= end){
         if (arr[mid] == key){
@@ -19,7 +19,7 @@ int binarySearch(int arr[] , int size, int key){
             //means go left
             end = mid-1; //is case me start same rahega na 
         }
-        mid = (start+end)/2;
+       mid = (start + (end-start)/2);
 
     }
 return -1; 
