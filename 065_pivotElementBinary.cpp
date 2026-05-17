@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//just read the flow and u will get the logic
 // function returns index of smallest element
 int pivotIndex(int arr[], int size){
 
