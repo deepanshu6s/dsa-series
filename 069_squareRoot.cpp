@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int root(int n){ 
+long long int root(int n){ 
     int start = 0;
     int end = n;
-    int mid = start +(end-start)/2;
+    long long int mid = start +(end-start)/2;
     int ans = -1;
 
     while (start <= end){
-            int sq = mid*mid;
+            long long int sq = mid*mid;
             if(sq == n){
                 return mid;
             }
