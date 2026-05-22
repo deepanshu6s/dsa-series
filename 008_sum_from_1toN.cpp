@@ -8,7 +8,7 @@ int main(){
 
     while(i<=n){
         sum = sum+i;
-        i =i+1;
+        i =i+1;     //or use n*(n+1)/2;
     }
     cout <<sum;
 }

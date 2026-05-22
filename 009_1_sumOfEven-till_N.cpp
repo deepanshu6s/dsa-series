@@ -9,6 +9,6 @@ int main(){
     while(i<=n){
         sum = sum+i;
         i =i+2;
-    }
+    }                   //prints the sum of even numeber till n; eg n = 10 then 2+4+6+8+10;
     cout <<sum;
 }
