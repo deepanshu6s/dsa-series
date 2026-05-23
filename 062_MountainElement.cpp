@@ -6,11 +6,9 @@ int peakIndex(int arr[], int size){
 
     int start = 0;
     int end = size - 1;
+    int mid = start + (end - start)/2;
 
     while(start < end){
-
-        int mid = start + (end - start)/2;
-
         // we are on increasing side
         if(arr[mid] < arr[mid + 1]){
             start = mid + 1;
@@ -19,7 +17,7 @@ int peakIndex(int arr[], int size){
         // we are on decreasing side
         else{
             end = mid;
-        }
+        } mid = start + (end - start)/2;
     }
 
     // start and end both point to peak
