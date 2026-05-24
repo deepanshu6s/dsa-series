@@ -10,8 +10,6 @@ int pivotIndex(int arr[], int size){
 
     while(start < end){
 
-        
-
         // we are on left sorted side
         if(arr[mid] >= arr[0]){
             start = mid + 1;
@@ -23,7 +21,7 @@ int pivotIndex(int arr[], int size){
         }mid = start + (end - start)/2;
     }
 
-    return start;
+    return start; //can return end also both same
 }
 
 int main(){
