@@ -25,21 +25,17 @@ long long sqrtInteger(int n){
     return ans;
 }
 
-double morePrecision(int n , int precision , int tempSol){
-    //precision is till what decimal place we want
-
+double morePrecision(int n, int precision, int tempSol){
     double factor = 1;
-    
-    for (int i= 0;i<precision ;i++){
-        factor = factor / 10;
+    double ans = tempSol;
 
-            for (double j = 0;j*j<n;j= j+factor){
+    for(int i = 0; i<precision;i++){
+        factor = factor/10;
 
-            }
-    }
-
-
-
+        for(double j = ans;j*j<n;j= j+factor){
+            ans = j;
+        }
+    }return ans;
 }
 
 
