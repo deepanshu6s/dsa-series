@@ -17,7 +17,7 @@ int main(){
         start++;
         end--;
     }
-    cout<<ans;
+    cout<<ans<<endl;
     
 
 }
