@@ -1,23 +1,11 @@
 #include <iostream>
 using namespace std;
-
 int main(){
+    int n;
+    cout<<"hello, enter the value of n : ";
+    cin>>n;
 
-    int arr[5] = {1,2,4,5,6};
+    long long int a = n*n;
 
-    int start = 0;
-    int end = 4;
-    int ans = INT_MIN;
-
-    while(start <= end){
-        int a = max(arr[start], arr[end]);
-        if(a>ans){
-            ans = a;
-        }
-        start++;
-        end--;
-    }
-    cout<<ans<<endl;
-    
-
+    cout<<"n power 2 is : "<<a<<endl;
 }
