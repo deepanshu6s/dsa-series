@@ -8,4 +8,7 @@ int main(){
     long long int a = n*n;
 
     cout<<"n power 2 is : "<<a<<endl;
+    cout<<endl;
+
+    cout<<"hii ";
 }
