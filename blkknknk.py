@@ -1,2 +1,2 @@
 print ("hello world")
-print ("*" * 55)
+print ("*" * 55) 
