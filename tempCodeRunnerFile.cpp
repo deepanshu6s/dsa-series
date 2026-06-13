@@ -1,14 +1,12 @@
 #include <iostream>
+#include <array>
 using namespace std;
 int main(){
-    int n;
-    cout<<"hello, enter the value of n : ";
-    cin>>n;
+    array<int,5> a = {1,2,3,4,6};
 
-    long long int a = n*n;
+    int b = a.size();
 
-    cout<<"n power 2 is : "<<a<<endl;
-    cout<<endl;
-
-    cout<<"hii ";
+    for(int i = 0; i<b; i++){
+        cout<<a[i]<<" ";
+    }
 }
