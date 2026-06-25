@@ -9,5 +9,5 @@ int main(){
 
     int d = a||b;
     cout<<d<<endl;     
-    //and && , or || , not !
+    //   -  and && , or || , not !
 }
