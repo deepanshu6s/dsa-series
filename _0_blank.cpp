@@ -1,22 +1,19 @@
 #include <iostream>
 using namespace std;
+
+int fn(int n){
+int count = 0;
+   while(n!=0){
+
+    if(n&1){
+        count++;
+    }n = n>>1;
+   }
+   return count;
+}
 int main(){
-    int n; 
-    cin>>n;
-    
-    bool abc = 0;
+ int n;
+ cin>>n;
 
-    for(int i = 2 ; i<n; i++){
-
-    if(n%i == 0){
-        abc =  1;
-    }
-
-    }
-
-    if(abc){
-        cout<<"not prime"<<endl;
-    }else{
-        cout<<"Prime"<<endl;
-    }
+cout<<fn(n);
 }
