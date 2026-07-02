@@ -1,29 +1,18 @@
 #include <iostream>
 using namespace std;
 
-int fact(int num){
-    int mul = 1;
-    for(int i = 1; i<=num ; i++){
-            mul = mul*i;
-    }return mul;
-}
-
-int nCr(int n , int r){
-    int a = fact(n) / (fact(r) * fact(n-r));
-    return a;
+void Printing (int n){
+    for(int i = 0; i<=n; i++){
+        cout<<i<<" ";
+    }cout<<endl;
 }
 
 int main(){
 
-        int a,b;
-        cout<<"enter n: ";
-        cin>>a;
+    int n;
+    cout<<"print till where you wants to print the counting : ";
+    cin>> n ;
 
-        cout<<"enter r: ";
-        cin>>b;
+    Printing (n);
 
-        int answer = nCr(a,b);
-
-        cout<<"nCr = "<<answer<<endl;
-        
 }
