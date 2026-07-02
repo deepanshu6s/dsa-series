@@ -1,4 +1,5 @@
 #include<iostream>
+#include <climits>
 using namespace std;
 
 int getMax(int array[] , int size1){
