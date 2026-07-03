@@ -1,7 +1,16 @@
 #include <iostream>
 using namespace std;
-int main(){
-    int arr[3] = {1,2,3};
 
-    cout<<arr[1]<<endl;
+void print(char arr[], int size ){
+    for(int i = 0; i<size ; i++){
+         cout <<arr[i]<<"   ";
+    }
+}
+int main(){
+
+    char arr[5] = {'a','b', 'b', 'c', 'd'};
+
+   print(arr, 5);
+
+  
 }
