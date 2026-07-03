@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 
-        int arr[5] = { 1,1,98,5,5};
+        int arr[7] = { 1,1,98,98,999,5,5};
         int size = 5;
         int unique = 0;
         
