@@ -2,13 +2,13 @@
 using namespace std;
 
     bool srch(int aray[]){
+        int key = 22;
         
         for (int i = 0 ; i<10; i++){
-        if (1 ==aray[i]){
+        if (key ==aray[i]){
             
             return 1;
-        }
-        
+        } 
     }return 0;
 }
 
@@ -18,10 +18,9 @@ int main(){
    
     srch(arr);
     if(srch(arr)){
-        cout<<"yes ";
+        cout<<"yes present"<<endl;
     }
     else{
-        cout<<"no";
+        cout<<"not present"<<endl;
         }
     }
-

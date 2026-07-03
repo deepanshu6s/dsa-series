@@ -1,16 +1,17 @@
 #include <iostream>
 using namespace std;
-
-void print(char arr[], int size ){
-    for(int i = 0; i<size ; i++){
-         cout <<arr[i]<<"   ";
-    }
-}
 int main(){
 
-    char arr[5] = {'a','b', 'b', 'c', 'd'};
+        int arr[5] = { 1,1,98,5,5};
+        int size = 5;
+        int unique = 0;
+        
+        for(int i = 0; i<size ; i = i+1){
 
-   print(arr, 5);
+                unique = unique^arr[i];
+            
+        
+        }
+  cout<<unique<<endl;
 
-  
 }
