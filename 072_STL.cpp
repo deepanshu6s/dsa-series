@@ -3,13 +3,10 @@
 using namespace std;
 int main(){
 
-    array<int, 5> arr1 = {1,2,3,4,5};
-
-    cout<<arr1[4]<<endl;
-    cout<<arr1.at(3)<<endl;
-
-    cout<<"empty wala line: ";
+    array<int, 500> arr1 = {1,2,3,4,5};
 
     cout<<arr1.empty();
     cout<<endl;
+
+    return 0;
 }
