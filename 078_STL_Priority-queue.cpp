@@ -16,6 +16,11 @@ int main(){
         int s = p.size();
         cout<<endl;
 
+        cout<<" empty hai kya : "<<p.empty();
+
+        cout<<endl;
+
+        cout<<"now printing"<<endl;
 
 
         for(int i= 0; i<s; i++){
@@ -23,7 +28,10 @@ int main(){
             p.pop();
         }
 
+        cout<<endl;
 
+        cout<<"ab empty hai kya : "<<p.empty();
+       
     
 
 
