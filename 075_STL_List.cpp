@@ -29,6 +29,8 @@ int main(){
 
         cout<<l.front();
 
+        // l.erase(l.begin());
+
         l.pop_front();
     }
 
