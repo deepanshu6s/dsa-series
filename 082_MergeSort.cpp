@@ -52,4 +52,6 @@ int main(){
     merge(arr1,5, arr2,3, arr3);
 
     print (arr3, 8);
+
+    
 }
