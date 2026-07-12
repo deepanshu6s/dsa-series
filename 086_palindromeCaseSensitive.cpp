@@ -32,7 +32,7 @@ bool palindrome(char a[], int size){
 
     while(start < end){
 
-        if(a[start] != a[end]){
+        if(toLowerCase(a[start]) != toLowerCase(a[end])){
             return 0;
         }
         else{
