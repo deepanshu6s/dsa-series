@@ -5,10 +5,10 @@ using namespace std;
 void rowsum(int arr[][4], int n, int m){
       
 
-    for( int k = 0; k<3; k++){
+    for( int row = 0; row<4; row++){
         int count = 0;
-        for(int l = 0; l<4; l++){
-            count = count + arr[k][l];
+        for(int col = 0; col<3; col++){
+            count = count + arr[col][row];
         }
             cout<<count<<" ";
     }
