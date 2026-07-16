@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main(){
+
+        int num = 123;
+        cout<<"address of num is "<< &num<<endl;
+
+
+        int *a = &num;
+        //means a is a pointer of int datatype
+        cout<<"pointer stored address is : "<<a<<endl;
+
+
+
+        //both are same 
+}
