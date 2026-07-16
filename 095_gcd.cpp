@@ -31,4 +31,4 @@ int main(){
 
     cout<< ans<<endl;
 
-} 
+}
