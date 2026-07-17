@@ -16,4 +16,9 @@ int main(){
 
         cout<<"value of num is : "<< *a<< endl;
         cout<<"address of num is : "<< a<<endl;
+
+
+
+        cout<<"size of num is : "<<sizeof(*a)<< endl;
+        cout<<"size of pointer is : "<<sizeof(a)<<endl;
 }
