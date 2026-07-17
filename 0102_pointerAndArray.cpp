@@ -10,7 +10,9 @@ int main(){
     cout<<&arr[0]<<endl;
 
 
-    cout<<arr[1];
+    cout<<*(arr+1);
+
+    cout<<endl;
 
    
     
