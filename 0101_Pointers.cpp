@@ -12,5 +12,8 @@ int main(){
 
 
 
-        //both are same 
+        //both are same  
+
+        cout<<"value of num is : "<< *a<< endl;
+        cout<<"address of num is : "<< a<<endl;
 }
