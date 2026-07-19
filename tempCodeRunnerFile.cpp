@@ -1,10 +1,16 @@
 #include <iostream>
 using namespace std;
 int main(){
-char *p = 0;
 
-int i = 0; 
+    int arr[34] = {0};
 
-i++;
-cout<<i<<endl;
+    int *p = arr;
+
+
+    int a = 55;
+   
+    int *b = &a;
+
+
+
 }
