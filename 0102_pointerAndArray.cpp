@@ -1,20 +1,14 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int arr[10] = {1};
+    int arr[10] = {45,69,84};
 
     //address of first memory block is array name itself
-    
-    cout<<arr<<endl;
 
-    cout<<&arr[0]<<endl;
+    int *p = arr;
 
-
-    cout<<*(arr+1);
-
-    cout<<endl;
-
-   
+    cout<<sizeof(p)<<endl;
+    cout<<sizeof(arr);
     
     
-}
+} 
