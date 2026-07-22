@@ -5,10 +5,10 @@ int main(){
 
     //address of first memory block is array name itself
 
-    int *p = arr;
+    cout<<arr<<endl;
+    cout<<*arr<<endl;
+    cout<<&arr<<endl;
 
-    cout<<sizeof(p)<<endl;
-    cout<<sizeof(arr);
-    
-    
+
+    //see in copy notes 
 } 
