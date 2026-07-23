@@ -8,6 +8,7 @@ int main(){
     cout<<arr<<endl;
     cout<<*arr<<endl;
     cout<<&arr<<endl;
+    cout<<endl;
 
 
     //see in copy notes 
