@@ -7,13 +7,25 @@ int main(){
     //and \0 milte hi ruk jayega 
     // cout<<arr;
 
-    char a = 'z';
+    // char a = 'z';
 
 
-    char *p = &a;
+    // char *p = &a;
 
-    cout<<endl;
+    // cout<<endl;
 
-    cout<<p;
-    cout<<endl;
+    // cout<<p;
+    // cout<<endl;
+
+    char ch[6] = "ads\0g";
+
+
+    char *p = ch;
+
+    cout<<ch<<endl;
+    char *c = "abcde";
+
+
+
+    cout << c << endl;
 }
