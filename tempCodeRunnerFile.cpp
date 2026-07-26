@@ -1,3 +1,14 @@
-    // p2 = p2 + 1;
+#include <iostream>
+using namespace std;
+int main(){
 
-    // *p2 = *p2 + 1;
+    int *p = 0;
+    int i = 555;
+
+    cout<<p;
+    cout<<endl;
+
+    *p = i;
+    cout<<*p;
+
+}
