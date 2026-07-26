@@ -1,19 +1,9 @@
-// #include <iostream>
-// using namespace std;
-// void getSum(int arr[]){ //can also write int *arr
-
-    
-//     cout<<"inside funciton : "<<sizeof(arr);
-//     cout<<endl;
-
-
-// }
+#include <iostream>
+using namespace std;
+int main(){
+    int i = 555;
+    int* p1 = &i;
+    int** p2 = &p1;
 
 
-// int main(){
-
-//     int arr[5] = {1,2,3,4,5};
-
-//   getSum(arr);
-
-// }
+}
