@@ -2,13 +2,9 @@
 using namespace std;
 int main(){
 
-    int *p = 0;
-    int i = 555;
-
-    cout<<p;
-    cout<<endl;
-
-    *p = i;
-    cout<<*p;
+int *ptr = 0;
+int a = 10;
+ptr = &a;
+cout << *ptr << endl;
 
 }
