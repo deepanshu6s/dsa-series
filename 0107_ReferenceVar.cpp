@@ -1,19 +1,21 @@
 #include <iostream>
 using namespace std;
+
+ void update(int a){
+
+    a++;
+    a++;
+
+    cout<< a;
+
+}
+
+
 int main(){
 
-    int i = 5;
-    int & j = i;
+int i = 5;
+
+ update(i);
 
 
-    /*cout<<&j;
-    cout<<&i;    i and j have same addresses */
-
-
-    j++;
-    j++; 
-
-    cout<<i;
-      
-   
-} 
+}
