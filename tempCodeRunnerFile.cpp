@@ -5,4 +5,6 @@ using namespace std;
     char *ch = new char;
 
     cout<<*ch<<endl;
+
+    //;abc
  }
