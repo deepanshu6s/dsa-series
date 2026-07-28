@@ -1,10 +1,13 @@
 #include <iostream>
+
 using namespace std;
+#define ADD(a,b) ((a) + (b))
 
  int main(){
-    char *ch = new char;
+    int b = ADD(10,20);
 
-    cout<<*ch<<endl;
+    cout <<b;
+
 
     //;abc
  }
