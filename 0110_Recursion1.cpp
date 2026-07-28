@@ -3,7 +3,7 @@ using namespace std;
 
 int factorial(int n){
     //base case
-    if(n == 1)
+    if(n == 2)
         return 1; //base case me return likhna mandatory hai 
 
 
@@ -11,6 +11,7 @@ int factorial(int n){
     int biggerProblem = n * smallerProblem;
 
     return biggerProblem;
+    //check notebook after understanding code that how we make this function body very small 
 }
 
 
