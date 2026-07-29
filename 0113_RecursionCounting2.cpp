@@ -4,11 +4,12 @@ void print(int n){
     if(n == 0)
         return;  //return 1 nahi likha because void funciton
 
-    cout<<n<<endl;
+    //head recursion
 
-    print(--n);  //dont use n-- see why??
+    print(n-1);  //dont use n-- see why??
                  //can use print(n-1);
-                 //and this is tail recursion
+
+    cout<<n<<endl;
 }
 
 
