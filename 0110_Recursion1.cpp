@@ -3,7 +3,7 @@ using namespace std;
 
 int factorial(int n){
     //base case
-    if(n == 2)
+    if(n == 0)
         return 1; //base case me return likhna mandatory hai 
 
 
