@@ -1,23 +1,19 @@
 #include <iostream>
 using namespace std;
 
-void counting(int n){
-   //base case
-   if(n==0){
-      return;
-   }
-
-  
-   counting(n-1);
-
-   cout<<n;
-
-}
-
 int main(){
-   int b;
-   cin>>b;
+    int dest;
+    cin>>dest;
 
-   counting(b);
+    int a = 0; 
+    int b = 1;
+
+    for(int i = 0; i<dest; i++){
+      int c = a+b;
+      a = b;
+      b = c;
+
+      cout<<c<<" ";
+    }
 
 }
