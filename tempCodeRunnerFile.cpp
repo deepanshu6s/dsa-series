@@ -1,13 +1,23 @@
 #include <iostream>
-
 using namespace std;
-#define ADD(a,b) ((a) + (b))
 
- int main(){
-    int b = ADD(10,20);
+void counting(int n){
+   //base case
+   if(n==0){
+      return;
+   }
 
-    cout <<b;
+  
+   counting(n-1);
 
+   cout<<n;
 
-    //;abc
- }
+}
+
+int main(){
+   int b;
+   cin>>b;
+
+   counting(b);
+
+}
