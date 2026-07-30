@@ -1,32 +1,37 @@
 #include <iostream>
 using namespace std;
 
-void print (int n, string arr[]){
+int binary(int arr[], int size, int key){
 
-   if(n == 0){
-      return;
+   int start = 0;
+   int end = size-1;
+   int mid = start+(end - start)/2;
+
+
+   for(int i= 0; i <= end ; i++){
+
+   if(arr[mid] == key){
+      return mid;
    }
-
-   int digit = n%10;
-   n = n/10;
-
-  
-
-   print(n, arr);
-
-    cout<<arr[digit]<<" ";
+   else {
+      if(arr[mid] > key){
+         end = mid-1;
+      }else {
+         start = mid+1;
+      }
+   }
+   mid = start+(end - start)/2;
+   cout<<"updated mid"<<endl;
+}
+return 0;
 
 }
 
 int main(){
 
-   string arr[10] = {"zero", "one", "two" , "three",
-       "four", "five", "six", "seven", "eight", "nine"};
-
-   int n;
-   cin>>n;
-
-
-   print(n ,arr);
+  int arr[7] = {1,2,3,4,5,6,7};
+  int size = 7;
+  int key = 6;
+  cout<<endl<<binary(arr, size, key)<<endl;
 
 }
