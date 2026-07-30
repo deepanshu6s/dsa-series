@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace  std;
-int arraySum(int arr[], int size, int sum){
+int arraySum(int arr[], int size, int sum){//use int *arr(better)
     if(size == 0){
         cout<<"sum is : "<<sum<<endl;
         return 0;

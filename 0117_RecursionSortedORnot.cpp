@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-bool isSorted(int arr[], int size){
+bool isSorted(int arr[], int size){//use int *arr(better)
     //base case
     if(size == 0 || size == 1)
         return true;
