@@ -8,7 +8,7 @@ int arraySum(int arr[], int size, int sum){//use int *arr(better)
 
     sum = sum+arr[0];
     
-    arraySum(arr+1, size-1,sum);
+    return arraySum(arr+1, size-1,sum);
 
     
 

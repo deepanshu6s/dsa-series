@@ -10,7 +10,7 @@ void print (int n, string arr[]){
    int digit = n%10;
    n = n/10;
 
-  
+  //
 
    print(n, arr);
 
