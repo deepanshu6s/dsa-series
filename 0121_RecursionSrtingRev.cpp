@@ -30,23 +30,3 @@ int main(){
 
 
 
-// #include <iostream>
-// using namespace std;
-// int main(){
-    // int n;
-    // cin>>n;
-    // 
-    // if(n%2 != 0 || n >100 || n<1){
-        // cout<<"NO";
-    // }
-    // else{
-// 
-    // int both = n/2;
-    // if(both >0 && both%2 == 0){
-        // cout<<"YES";
-    // }else{
-        // cout<<"NO";
-    // }
-// }
-// }
-// 
