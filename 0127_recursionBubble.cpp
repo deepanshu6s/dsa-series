@@ -12,7 +12,7 @@ void sortArray(int *arr, int size){
         swap(arr[i], arr[i+1]);
     }
 }
-    sortArray(arr, size-1);
+    sortArray(arr, size-1);//correct hai, khud se puch ki kyu nhi aa raha samajh 
 
 }
 int main(){
