@@ -20,5 +20,5 @@ bool palindrome(string &s, int start , int end){
 int main(){
     string s = "aabbccbbaa";
     cout<< palindrome(s, 0, s.length()-1);
-
+    //done nothing
 }
