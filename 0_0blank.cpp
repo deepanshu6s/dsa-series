@@ -1,33 +1,25 @@
 #include <iostream>
 using namespace std;
-int main(){
 
-    int x,y,num;
-    
-    cout<<"enter row and col : ";
-    cin>>x>>y;
-
-    int arr[x][y];
-
-for(int i = 0; i<x; i++){
-           for(int j = 0; j<y; j++){
-            cout<<"enter "<< i <<" "<<j <<" : ";
-               cin>>arr[i][j];
-           }
-       }
-
-       cout<<"enter num : ";
-       cin>>num;
-
-
-       for(int i = 0; i<x; i++){
-           for(int j = 0; j<y; j++){
-               if(arr[i][j] == num){
-                cout<<"true";
-                    break;
-               }
-           }
-       }
-       cout<<"false";
-       
+int fibo(int n){
+    //base case
+    if(n == 1){
+        return 1;
+    } 
+    if(n== 0){
+        return 0;
     }
+
+
+    
+    int ans = fibo(n-1) + fibo(n-2);
+    return ans;
+}
+
+int main(){
+    int n;
+    cout<<"enter the value: ";
+    cin>>n;
+    int ans =  fibo(n);
+    cout<<ans;
+}
